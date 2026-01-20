@@ -1,5 +1,7 @@
 public class Minesweeper {
   public static void Main (String args[]) {
-    System.out.println("Este será el juego del Buscaminas");
+    for (int i = 0; i < 10; i++) {
+      System.out.println(i);
+    }
   }
 }
