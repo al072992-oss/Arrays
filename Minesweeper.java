@@ -14,6 +14,10 @@ public class Minesweeper {
     return minesweeperMatrix;
   }
 
+  public int getMines() {
+    return mines;
+  }
+
   public void generateMines() {
     int counterMines = this.mines;
 
